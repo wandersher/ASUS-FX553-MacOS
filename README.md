@@ -1,4 +1,4 @@
-# MacOS-Asus-FX553V
+# Hackintosh on Asus FX553V
 
 ## Hardware
 * CPU
@@ -10,7 +10,9 @@
   * 2 x 8GB Samsung 2400Mh
 * ROM
   * GoodRam CL100 SSD 256Gb
+* Internet
+  * USB WiFi Comfast CF-WU810N
 
 ## OS
-* MacOS 10.15.6 Catalina
-* MacOS 10.14.3 Mojave
+* MacOS 10.15.3 Catalina
+* MacOS 10.14.6 Mojave
