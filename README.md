@@ -10,6 +10,8 @@
   * 2 x 8GB Samsung 2400Mh
 * ROM
   * GoodRam CL100 SSD 256Gb
+* Audio
+  * Realteck ALC233
 * Internet
   * USB WiFi Comfast CF-WU810N
 
