@@ -1,4 +1,4 @@
-![MacOS for Asus FX553V](https://github.com/tannerlinsley/react-table/raw/master/media/repo-dark.png)
+![MacOS for Asus FX553V](preview.png)
 
 # MacOS for Asus FX553V
 
