@@ -30,7 +30,7 @@
 - [x] Audio - work
 - [x] Ethernet RJ45 - work
 - [x] Bluetooth - work
-- [x] WiFi - work ( with <a target="__blank" href="https://github.com/OpenIntelWireless/HeliPort/releases">HeliPort</a>  app )
+- [x] WiFi - work ( with <a target="_blank" href="https://github.com/OpenIntelWireless/HeliPort/releases">HeliPort</a>  app )
 - [x] HDMI - work 
 - [x] Cpu temparature sensor - work
 - [x] Battery status - work
