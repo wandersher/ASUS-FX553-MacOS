@@ -25,9 +25,13 @@
 
 ## Result
 
-* Graphic - work
-* Sound - work
-* Bluetooth - work
-* WiFi - work ( with <a href="https://github.com/OpenIntelWireless/HeliPort/releases">HeliPort</a>  app )
-* HDMI - work 
-* Touchpad - <b>NOT</b> work
+- [x] NVMe - work
+- [x] Graphic - work
+- [x] Audio - work
+- [x] Ethernet RJ45 - work
+- [x] Bluetooth - work
+- [x] WiFi - work ( with <a href="https://github.com/OpenIntelWireless/HeliPort/releases">HeliPort</a>  app )
+- [x] HDMI - work 
+- [x] Cpu temparature sensor - work
+- [x] Battery status - work
+- [ ] Touchpad - <b>NOT</b> work
