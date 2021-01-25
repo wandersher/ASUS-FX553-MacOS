@@ -1,6 +1,6 @@
-![MacOS for Asus FX553V](preview.png)
 
 # MacOS for Asus FX553V
+![MacOS for Asus FX553V](preview.png)
 
 ## Hardware
 * CPU
