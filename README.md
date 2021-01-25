@@ -28,6 +28,6 @@
 * Graphic - work
 * Sound - work
 * Bluetooth - work
-* WiFi - work ( with <a href="https://github.com/OpenIntelWireless/HeliPort/releases">HeliPort</a>  app )
+* WiFi - work ( with <a target="__blank" href="https://github.com/OpenIntelWireless/HeliPort/releases">HeliPort</a>  app )
 * HDMI - work 
 * Touchpad - <b>NOT</b> work
