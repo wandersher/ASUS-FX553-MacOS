@@ -17,7 +17,7 @@
 
 ## OS
 
-* MacOS 11.0.1 Big Sur    [ OpenCore ]
+* MacOS 11.1 Big Sur      [ OpenCore ]
 * MacOS 10.15.3 Catalina  [ Clover ]
 * MacOS 10.14.6 Mojave    [ Clover ]
 
