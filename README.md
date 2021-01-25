@@ -2,24 +2,24 @@
 
 ## Hardware
 * CPU
-  * i5 7300HQ
+  * i5 7300HQ Kaby Lake
 * GPU
   * Intel HD630 1.5Gb
-  * Nvidia GTX 1050Ti 4Gb ( NOT WORKING )
+  * Nvidia GTX 1050Ti 4Gb ( <b>NOT</b> work )
 * RAM
   * 2 x 8GB Samsung 2400Mh
 * ROM
-  * GoodRam CL100 SSD 256Gb
+  * Netac NVMe SSD 250GB
 * Audio
   * Realteck ALC233
-* Internet
-  * USB WiFi Comfast CF-WU810N
+* WiFi / Bluetooth
+  * Intel AC7265 DualBan
 
 ## OS
 
-* MacOS 11.0.1 Big Sur  [ OpenCore ]
-* MacOS 10.15.3 Catalina [ Clover ]
-* MacOS 10.14.6 Mojave [ Clover ]
+* MacOS 11.0.1 Big Sur    [ OpenCore ]
+* MacOS 10.15.3 Catalina  [ Clover ]
+* MacOS 10.14.6 Mojave    [ Clover ]
 
 ## Result
 
@@ -27,5 +27,5 @@
 * Sound - work
 * Bluetooth - work
 * WiFi - work ( with <a href="https://github.com/OpenIntelWireless/HeliPort/releases">HeliPort</a>  app )
-* HDMI - work
+* HDMI - work 
 * Touchpad - <b>NOT</b> work
