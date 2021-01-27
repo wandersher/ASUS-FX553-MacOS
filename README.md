@@ -29,17 +29,17 @@
     </tr>
     <tr>
       <td>Memory</td>
-      <td>16 GB SDRAM, 2 x SO-DIMM socket DDR4 2400 MHz</td>
+      <td>Samsung DDR4 16GB 2400 MHz</td>
       <td>YES</td>
     </tr>
     <tr>
       <td>Graphic</td>
-      <td>INTEL HD 630 1.5Gb</td>
+      <td>Intel® HD 630 1.5Gb</td>
       <td>YES</td>
     </tr>
     <tr>
       <td>Graphic</td>
-      <td>NVIDIA GeForce GTX 1050Ti 4Gb</td>
+      <td>Nvidia GeForce GTX 1050Ti 4Gb</td>
       <td><strong>NO</strong></td>
     </tr>
     <tr>
@@ -73,13 +73,13 @@
       <td>YES</td>
     </tr>
     <tr>
-      <td>Wifi</td>
-      <td>Intel AC7265</td>
+      <td>WiFi</td>
+      <td>Intel® AC7265</td>
       <td>YES (with <a target="_blank" href="https://github.com/OpenIntelWireless/HeliPort/releases">HeliPort</a> GUI)</td>
     </tr>
     <tr>
       <td>Bluetooth</td>
-      <td>Intel AC7265</td>
+      <td>Intel® AC7265</td>
       <td>YES</td>
     </tr>
     <tr>
@@ -94,7 +94,7 @@
     </tr>
     <tr>
       <td>HDMI</td>
-      <td>INTEL HDMI HD 630</td>
+      <td>Intel® HDMI HD 630</td>
       <td>YES (no audio)</td>
     </tr>
     <tr>
