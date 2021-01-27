@@ -55,7 +55,7 @@
     <tr>
       <td>Graphic</td>
       <td>NVIDIA GeForce GTX 1050Ti 4Gb</td>
-      <td>NO</td>
+      <td><strong>NO</strong></td>
     </tr>
     <tr>
       <td>Audio</td>
@@ -90,7 +90,7 @@
     <tr>
       <td>Wifi</td>
       <td>Intel AC7265</td>
-      <td>Working with <a target="_blank" href="https://github.com/OpenIntelWireless/HeliPort/releases">HeliPort</a> GUI</td>
+      <td>YES (with <a target="_blank" href="https://github.com/OpenIntelWireless/HeliPort/releases">HeliPort</a> GUI)</td>
     </tr>
     <tr>
       <td>Bluetooth</td>
