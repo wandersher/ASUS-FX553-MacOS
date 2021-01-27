@@ -25,7 +25,7 @@
 
 - [x] NVMe - work
 - [x] Graphic - work
-- [x] Audio - work
+- [x] Audio - work ( use 11 layout-id )
 - [x] Ethernet RJ45 - work
 - [x] Bluetooth - work
 - [x] WiFi - work ( with <a target="_blank" href="https://github.com/OpenIntelWireless/HeliPort/releases">HeliPort</a>  app )
