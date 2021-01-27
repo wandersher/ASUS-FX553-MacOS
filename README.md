@@ -13,15 +13,13 @@
 * ROM
   * Netac NVMe SSD 250GB
 * Audio
-  * Realteck ALC233
+  * Realteck ALC235
 * WiFi / Bluetooth
   * Intel AC7265 DualBan
 
 ## OS
 
-* MacOS 11.1 Big Sur      [ OpenCore ]
-* MacOS 10.15.3 Catalina  [ Clover ]
-* MacOS 10.14.6 Mojave    [ Clover ]
+* MacOS 11.1 Big Sur [ OpenCore 0.6.5 ]
 
 ## Result
 
@@ -34,4 +32,4 @@
 - [x] HDMI - work 
 - [x] Cpu temparature sensor - work
 - [x] Battery status - work
-- [ ] Touchpad - <b>NOT</b> work
+- [x] Touchpad - work
