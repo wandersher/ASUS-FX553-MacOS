@@ -2,26 +2,11 @@
 # MacOS for Asus FX553V
 ![MacOS for Asus FX553V](preview.png)
 
-## Hardware
-* CPU
-  * i5 7300HQ Kaby Lake
-* GPU
-  * Intel HD630 1.5Gb
-  * Nvidia GTX 1050Ti 4Gb ( <b>NOT</b> work )
-* RAM
-  * 2 x 8GB Samsung 2400Mh
-* ROM
-  * Netac NVMe SSD 250GB
-* Audio
-  * Realteck ALC235
-* WiFi / Bluetooth
-  * Intel AC7265 DualBan
-
 ## OS
 
 * MacOS 11.1 Big Sur [ OpenCore 0.6.5 ]
 
-## Result
+## Hardware
 
 <table>
   <thead>
