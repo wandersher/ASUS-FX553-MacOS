@@ -55,7 +55,7 @@
     <tr>
       <td>Keyboard</td>
       <td>ASUS onboard</td>
-      <td>Yes</td>
+      <td>YES</td>
     </tr>
     <tr>
       <td>Card Reader</td>
