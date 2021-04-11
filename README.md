@@ -4,7 +4,7 @@
 
 ## OS
 
-* MacOS 11.1 Big Sur [ OpenCore 0.6.8 ]
+MacOS 11.2.3 Big Sur [ OpenCore 0.6.8 ]
 
 ## Hardware
 
