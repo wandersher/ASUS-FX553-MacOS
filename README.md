@@ -75,7 +75,7 @@
     <tr>
       <td>WiFi</td>
       <td>Intel® AC7265</td>
-      <td>YES (with <a target="_blank" href="https://github.com/OpenIntelWireless/HeliPort/releases">HeliPort</a> GUI)</td>
+      <td>YES</td>
     </tr>
     <tr>
       <td>Bluetooth</td>
