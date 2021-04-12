@@ -1,8 +1,5 @@
 .DS_Store
 Icon?
-Clover Configurator.app
-CloverThemeManager.app
-OpenCore Configurator.app
-OpenCanopy Generator.app
-/OpenCanopy Icons/*
+Tools/*
 Hackintool.app
+apply.command
