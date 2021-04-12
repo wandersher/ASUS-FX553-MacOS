@@ -4,7 +4,7 @@
 
 ## OS
 
-* MacOS 11.1 Big Sur [ OpenCore 0.6.8 ]
+MacOS 11.2.3 Big Sur [ OpenCore 0.6.8 ]
 
 ## Hardware
 
@@ -101,6 +101,11 @@
       <td>Touchpad</td>
       <td>ELAN 1200</td>
       <td>YES</td>
+    </tr>
+     <tr>
+      <td>Hibernation</td>
+      <td></td>
+      <td><strong>NO</strong></td>
     </tr>
   </tbody>
 </table>
