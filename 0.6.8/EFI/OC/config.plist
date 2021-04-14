@@ -521,12 +521,14 @@
 				<string>Internal@0,31,3</string>
 				<key>device_type</key>
 				<string>Audio device</string>
-				<key>hda-gfx</key>
-				<string>onboard-1</string>
 				<key>layout-id</key>
 				<data>CwAAAA==</data>
+				<key>alctsel</key>
+				<data>AQAAAA==</data>
+				<key>alc-delay</key>
+				<integer>1000</integer>
 				<key>model</key>
-				<string>CM238 HD Audio Controller</string>
+				<string>ALC235 HD Audio Controller</string>
 			</dict>
 		</dict>
 		<key>Delete</key>
@@ -1503,7 +1505,7 @@
 				<key>SystemAudioVolume</key>
 				<data>Rg==</data>
 				<key>boot-args</key>
-				<string>keepsyms=1 swd_panic=1 alcid=11</string>
+				<string>keepsyms=1 swd_panic=1 alcdelay=1000</string>
 				<key>csr-active-config</key>
 				<data>AAAAAA==</data>
 				<key>prev-lang:kbd</key>
