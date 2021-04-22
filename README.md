@@ -2,6 +2,14 @@
 # MacOS for Asus FX553V
 ![MacOS for Asus FX553V](preview.png)
 
+## Instruction
+
+1) Install MacOS Big Sur on your laptop
+2) Copy EFI folder from 0.6.8 in this repository to your EFI volume
+3) Reboot & Enjoy
+
+* How to install MacOS you can find on this YouTube chanels <a href="https://www.youtube.com/channel/UC9PhjnFqCTQFgTVcgzERdbw">English</a> or <a href="https://www.youtube.com/channel/UC-exD3luVmfx_Mlb8Y6qVjw">Russian</a>
+
 ## OS
 
 MacOS 11.2.3 Big Sur [ OpenCore 0.6.8 ]
