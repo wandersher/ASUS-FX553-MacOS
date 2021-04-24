@@ -114,7 +114,7 @@ MacOS 11.2.3 Big Sur [ OpenCore 0.6.8 ]
       <td>Hibernation</td>
       <td>
         Work only with `-wegnoegpu` boot argument - it disable discrete GPU <br/>
-        Add there - NVRAM => Add => 7C436110-AB2A-4BBB-A880-FE41995C9F82 => boot-args<br/>
+        NVRAM => Add => 7C436110-AB2A-4BBB-A880-FE41995C9F82 => boot-args<br/>
         🚧⠀This flag disable HDMI connector because it routing by discrete GPU 🚧
       </td>
       <td><strong>YES / NO</strong></td>
