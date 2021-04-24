@@ -53,7 +53,7 @@ MacOS 11.2.3 Big Sur [ OpenCore 0.6.8 ]
     <tr>
       <td>Audio</td>
       <td>ALC233(235)</td>
-      <td>YES (11 layout)</td>
+      <td>YES</td>
     </tr>
     <tr>
       <td>Storage</td>
@@ -103,7 +103,7 @@ MacOS 11.2.3 Big Sur [ OpenCore 0.6.8 ]
     <tr>
       <td>HDMI</td>
       <td>Intel® HDMI HD 630</td>
-      <td>YES (no audio)</td>
+      <td>YES</td>
     </tr>
     <tr>
       <td>Touchpad</td>
