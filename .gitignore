@@ -1,5 +1,4 @@
 .DS_Store
 Icon?
-Tools/*
-Hackintool.app
-apply.command
+Tools
+0.6.3
