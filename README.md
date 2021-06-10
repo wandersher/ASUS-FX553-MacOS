@@ -5,7 +5,7 @@
 ## Instruction
 
 1) Install MacOS Big Sur on your laptop
-2) Copy EFI folder from 0.6.8 in this repository to your EFI volume
+2) Copy EFI folder from 0.6.9 in this repository to your EFI volume
 3) Reboot & Enjoy
 
 * How to install MacOS you can find on this YouTube chanels <a href="https://www.youtube.com/channel/UC9PhjnFqCTQFgTVcgzERdbw" target="__blank">English</a> or <a href="https://www.youtube.com/channel/UC-exD3luVmfx_Mlb8Y6qVjw" target="__blank">Russian</a>
