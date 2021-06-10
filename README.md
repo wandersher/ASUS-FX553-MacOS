@@ -48,7 +48,7 @@ MacOS 11.3 Big Sur [ OpenCore 0.6.9 ]
     <tr>
       <td>Graphic</td>
       <td>Nvidia GeForce GTX 1050Ti 4Gb</td>
-      <td><strong>NO</strong></td>
+      <td><strong>UNSUPPORTED</strong></td>
     </tr>
     <tr>
       <td>Audio</td>
