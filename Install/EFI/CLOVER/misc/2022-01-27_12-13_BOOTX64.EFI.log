@@ -1,0 +1,371 @@
+0:100  0:100  MemLog inited, TSC freq: 3600498180
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  CloverX64 : Image base = 0xBD4C2000
+0:100  0:000  Clover ImageHandle = c456ea18
+0:120  0:020  === [ Starting Clover ] =========================
+0:120  0:000  Now is 27.01.2022,  12:13:18 (GMT)
+0:120  0:000  Starting Clover revision: 5142 (master, commit 50b364ee3) on American Megatrends EFI
+0:120  0:000  Build id: 20211102184453-50b364e-5142-dirty
+0:120  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -D LESS_DEBUG -t GCC53 | --cmd-len=50000 -D NO_GRUB_DRIVERS_EMBEDDED -D LESS_DEBUG --conf=/Users/sergey/src/CloverBootloader/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 5 | OS: 12.1]
+0:120  0:000  === [ Get Smbios ] ==============================
+0:120  0:000  Type 16 Index = 0
+0:120  0:000  Total Memory Slots Count = 4
+0:120  0:000  Type 17 Index = 0
+0:120  0:000  SmbiosTable.Type17->SlotIndex = 0
+0:120  0:000  SmbiosTable.Type17->ModuleSize = 4096MB
+0:120  0:000  SmbiosTable.Type17->Type = 0
+0:120  0:000  SmbiosTable.Type17->Frequency = 2400MHz
+0:120  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 ChannelA-DIMM0
+0:120  0:000  SmbiosTable.Type17->Vendor = Samsung
+0:120  0:000  SmbiosTable.Type17->SerialNo = 42807981
+0:120  0:000  SmbiosTable.Type17->PartNo = M378A5244CB0-CTD
+0:120  0:000  Type 17 Index = 1
+0:120  0:000  Ignoring insane frequency value 0MHz
+0:120  0:000  Type 17 Index = 2
+0:120  0:000  Ignoring insane frequency value 0MHz
+0:120  0:000  Type 17 Index = 3
+0:120  0:000  Ignoring insane frequency value 0MHz
+0:120  0:000  Boot status=0
+0:120  0:000  Running on: 'H310N 2.0' with board 'H310N 2.0'
+0:120  0:000  === [ GetCPUProperties ] ========================
+0:120  0:000  CPU Vendor = 756E6547 Model=906EB
+0:120  0:000   The CPU supported SSE4.1
+0:120  0:000   The CPU supported RDRAND
+0:120  0:000  BrandString = Intel(R) Core(TM) i3-8100 CPU @ 3.60GHz
+0:120  0:000   The CPU not supported turbo
+0:120  0:000   Energy PerfBias is  not visible:
+0:120  0:000  MSR 0x35               40004
+0:120  0:000   TSC/CCC Information Leaf:
+0:120  0:000    numerator     : 300
+0:120  0:000    denominator   : 2
+0:120  0:000   Calibrated ARTFrequency: 24003321
+0:120  0:000   Rounded ARTFrequency: 24000000
+0:120  0:000  MSR 0xE2 before patch 1E008000
+0:120  0:000  MSR 0xE2 is locked, PM patches will be turned on
+0:120  0:000  MSR 0xCE              00080838_F1012400
+0:120  0:000  corrected FLEX_RATIO = 0
+0:120  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:120  0:000  MaxDiv/MinDiv: 36.0/8
+0:120  0:000  Turbo: 36/36/36/36
+0:120  0:000  Features: 0x77FAFBBFBFEBFBFF
+0:120  0:000  Threads: 4
+0:120  0:000  Cores: 4
+0:120  0:000  FSB: 100 MHz
+0:120  0:000  CPU: 3600 MHz
+0:120  0:000  TSC: 3600 MHz
+0:120  0:000  PIS: 100 MHz
+0:120  0:000  ExternalClock: 25 MHz
+0:120  0:000  === [ GetDevices ] ==============================
+0:120  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80010100)
+0:120  0:000  PCI (00|00:00.00) : 8086 3E1F class=060000
+0:120  0:000  PCI (00|00:02.00) : 8086 3E91 class=030000
+0:120  0:000   - GFX: Model=Intel UHD Graphics 630 (Intel)
+0:120  0:000   - GOP: Provided by device
+0:120  0:000  PCI (00|00:08.00) : 8086 1911 class=088000
+0:120  0:000  PCI (00|00:14.00) : 8086 A2AF class=0C0330
+0:120  0:000  PCI (00|00:16.00) : 8086 A2BA class=078000
+0:120  0:000  PCI (00|00:17.00) : 8086 A282 class=010601
+0:120  0:000  PCI (00|00:1C.00) : 8086 A294 class=060400
+0:120  0:000  PCI (00|00:1D.00) : 8086 A29A class=060400
+0:120  0:000  PCI (00|02:00.00) : 10EC 8168 class=020000
+0:120  0:000   - LAN: 1 Vendor=Realtek
+0:120  0:000  Legacy MAC address of LAN #0= B4:2E:99:A6:82:07:
+0:120  0:000  PCI (00|00:1D.03) : 8086 A29B class=060400
+0:120  0:000  PCI (00|00:1F.00) : 8086 A2CA class=060100
+0:120  0:000  PCI (00|00:1F.02) : 8086 A2A1 class=058000
+0:120  0:000  PCI (00|00:1F.03) : 8086 A2F0 class=040300
+0:120  0:000  PCI (00|00:1F.04) : 8086 A2A3 class=0C0500
+0:122  0:002  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\H310N 2.0--B4-2E-99-A6-82-07'. Dir doesn't exist.
+0:122  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\H310N 2.0\UEFI'. Dir doesn't exist.
+0:122  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\H310N 2.0'. Dir doesn't exist.
+0:122  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\H310N 2.0-3600'. Dir doesn't exist.
+0:122  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\H310N 2.0'. Dir doesn't exist.
+0:122  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\H310N 2.0-3600'. Dir doesn't exist.
+0:122  0:000  === [ GetUserSettings ] =========================
+0:122  0:000  GetDefaultModel()=iMac18,3
+0:122  0:000  Using config.plist at path: \EFI\CLOVER
+0:123  0:000  Cannot find smbios.plist at path '\EFI\CLOVER' : Not Found
+0:123  0:000  '\EFI\CLOVER\smbios.plist' not loaded. Efi error Not Found
+0:123  0:000  Using latest BiosVersion from config instead of default 'IMP11.88Z.F000.B00.2107050205'
+0:123  0:000  Using latest BiosReleaseDate from config instead of default '07/05/2021'
+0:123  0:000  Using latest EfiVersion from config instead of default '1715.0.57.0.0'
+0:123  0:000  BiosVersion: IMP11.88Z.F000.B00.2109052150
+0:123  0:000  BiosReleaseDate: 09/05/2021
+0:123  0:000  EfiVersion: 1715.40.12.0.0
+0:123  0:000  Calibrated TSC Frequency = 3600498180 = 3600MHz
+0:123  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80010100)
+0:124  0:000  === [ GetListOfThemes ] =========================
+0:124  0:000  - [00]: evilgen
+0:131  0:007  - [01]: random
+0:131  0:000  - [01]: embedded
+0:133  0:002  === [ Found config plists ] =====================
+0:133  0:000  - config_Notebook300.plist
+0:133  0:000  - config775.plist
+0:133  0:000  - config_Notebook100.200.plist
+0:133  0:000  - config_Series 300.400.plist
+0:134  0:000  - configOr.plist
+0:134  0:000  - config_Series 100.200.plist
+0:134  0:000  - config_i3630-0x5912.plist
+0:134  0:000  - config_8th_Gen_Mobile.plist
+0:134  0:000  - configiMac19.2-f0x8.plist
+0:134  0:000  - config_amd.plist
+0:134  0:000  - config_Series 500.plist
+0:134  0:000  - configX99.plist
+0:134  0:000  - configx299.plist
+0:134  0:000  - configX79.plist
+0:134  0:000  - config.plist
+0:134  0:000  - config_10th_Gen_Mobile.plist
+0:134  0:000  - configX58.plist
+0:134  0:000  - config_Series 600.plist
+0:134  0:000  - config_Notebook.plist
+0:134  0:000  - configMBP142.plist
+0:134  0:000  - configHP.plist
+0:134  0:000  === [ LoadDrivers ] =============================
+0:134  0:000  Loading HFSPlus.efi status=Success
+0:141  0:007   - driver needs connecting
+0:141  0:000  Loading ApfsDriverLoader.efi status=Success
+0:142  0:000   - driver needs connecting
+0:142  0:000  2 drivers needs connecting ...
+0:142  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:142  0:000  HFS+ driver loaded
+0:142  0:000  APFS driver loaded
+0:142  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:715  0:572  === [ InitScreen ] ==============================
+0:715  0:000  Console modes reported: 6, available modes:
+0:715  0:000   - [01]: 80x25 (current mode)
+0:715  0:000   - [02]: 80x50
+0:715  0:000   - [03]: 100x31
+0:715  0:000   - [04]: 127x33
+0:715  0:000   - [06]: 120x50
+0:715  0:000  SetMaxResolution: found best mode 4: 1920x1080
+1:020  0:305  Video mode change to mode #4: Success
+1:020  0:000   - set
+1:020  0:000  SetScreenResolution: 1920x1080 - already set
+1:021  0:000  Using embedded font
+1:022  0:000  === [ ScanSPD ] =================================
+1:022  0:000  Scanning SMBus [8086:A2A3], mmio: 0xF712A004, ioport: 0xF040, hostc: 0x11
+1:040  0:018  Not using XMP because it is not present
+1:040  0:000  Slot: 0 Type 26 4096MB 2666MHz Vendor=Samsung PartNo=M378A5244CB0-CTD SerialNo=42807981
+1:042  0:001  === [ GetAcpiTablesList ] =======================
+1:042  0:000  Get Acpi Tables List from RSDT:
+1:042  0:000   - [00]: FACP  A M I len=132
+1:042  0:000   - [01]: APIC  A M I len=132
+1:042  0:000   - [02]: FPDT  A M I len=68
+1:042  0:000   - [03]: FIDT  A M I len=156
+1:042  0:000   - [04]: MCFG  A M I len=60
+1:042  0:000   - [05]: SSDT  A M I len=931
+1:042  0:000   - [06]: SSDT  A M I len=30756
+1:042  0:000   - [07]: SSDT  A M I len=12645
+1:042  0:000   - [08]: HPET  A M I len=56
+1:042  0:000   - [09]: SSDT  A M I len=4522
+1:042  0:000   - [10]: SSDT  A M I len=10967
+1:042  0:000   - [11]: UEFI  A M I len=66
+1:042  0:000   - [12]: SSDT  A M I len=6062
+1:042  0:000   - [13]: LPIT  A M I len=148
+1:042  0:000   - [14]: SSDT  A M I len=321
+1:042  0:000   - [15]: SSDT  A M I len=671
+1:042  0:000   - [16]: SSDT  A M I len=12290
+1:042  0:000   - [17]: SSDT  A M I len=1303
+1:042  0:000   - [18]: SSDT  A M I len=745
+1:042  0:000   - [19]: DBGP  A M I len=52
+1:042  0:000   - [20]: DBG2  A M I len=84
+1:042  0:000   - [21]: BGRT  A M I len=56
+1:042  0:000   - [22]: WSMT  A M I len=40
+1:042  0:000  Custom boot CUSTOM_BOOT_USER_DISABLED (0x0)
+1:042  0:000  Default theme: evilgen
+1:043  0:000  === [ Found DSDT tables ] =======================
+1:043  0:000  === [ InitKextList ] ============================
+1:111  0:067  === [ ScanVolumes ] =============================
+1:111  0:000  Found 10 volumes with blockIO
+1:111  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x2,0x0)
+1:111  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x2,0x0)\HD(1,GPT,E8ED2D34-8F89-42E4-A498-AB0ED3A060DA,0x28,0x64000)
+1:112  0:000          Result of bootcode detection: bootable unknown (legacy)
+1:114  0:002            label : EFI
+1:114  0:000          This is SelfVolume !!
+1:114  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x2,0x0)\HD(2,GPT,FBB6D356-FDF6-4847-AE0A-5F6009E33441,0x64028,0x1C37FB0)
+1:115  0:000            label : Install macOS Monterey
+1:115  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)
+1:116  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(1,GPT,29219658-AA33-428F-9868-3DD37BFF4446,0x28,0x64000)
+1:116  0:000          Result of bootcode detection: bootable unknown (legacy)
+1:119  0:002            label : EFI
+1:119  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F05D1450-4F84-49A5-B5A4-B829627C9589,0x64028,0xDF30B60)
+1:119  0:000          Result of bootcode detection: bootable unknown (legacy)
+1:119  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F05D1450-4F84-49A5-B5A4-B829627C9589,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0778B504AAFBEE4CB633A4C4EED90B9E)
+1:119  0:000            apfsFileSystemUUID=04B57807-FBAA-4CEE-B633-A4C4EED90B9E, ApfsContainerUUID=9FF6D73C-6237-4BBD-82DF-C6E6FA43014E, ApfsRole=0x10
+1:119  0:000            label : Preboot
+1:119  0:000  - [07]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F05D1450-4F84-49A5-B5A4-B829627C9589,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,12ECCBEE1D7A7141AB442B3EEDF3DA14)
+1:120  0:000            apfsFileSystemUUID=EECBEC12-7A1D-4171-AB44-2B3EEDF3DA14, ApfsContainerUUID=9FF6D73C-6237-4BBD-82DF-C6E6FA43014E, ApfsRole=0x0
+1:120  0:000            label : ssd
+1:120  0:000  - [08]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F05D1450-4F84-49A5-B5A4-B829627C9589,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,53F026985997B94D8BE9C022402E2CFB)
+1:120  0:000            apfsFileSystemUUID=9826F053-9759-4DB9-8BE9-C022402E2CFB, ApfsContainerUUID=9FF6D73C-6237-4BBD-82DF-C6E6FA43014E, ApfsRole=0x4
+1:120  0:000            label : Recovery
+1:120  0:000  - [09]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F05D1450-4F84-49A5-B5A4-B829627C9589,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,7FFA85A2FD8C1242AA1F21E16BE167C3)
+1:120  0:000            apfsFileSystemUUID=A285FA7F-8CFD-4212-AA1F-21E16BE167C3, ApfsContainerUUID=9FF6D73C-6237-4BBD-82DF-C6E6FA43014E, ApfsRole=0x8
+1:120  0:000            label : VM
+1:120  0:000  No AudioIoProtocols, status=Not Found
+1:120  0:000  === [ InitXTheme ] ==============================
+1:120  0:000  use Daylight theme
+1:123  0:002  Using theme 'evilgen' (evilgen)
+1:123  0:000  chosen theme evilgen
+1:123  0:000  OS main and drive as badge
+1:243  0:120  sound play end with status=Device Error
+1:244  0:000  theme inited
+1:244  0:000  Chosen theme evilgen
+1:245  0:000  after NVRAM boot-args=dart=0 watchdog=0 alcid=1 -no_compat_check -revsbvmm -v
+1:245  0:000  === [ Dump SMC keys from NVRAM ] ================
+1:245  0:000  no AppleSMC protocol
+1:259  0:014     fakesmc-key-#KEY-ui32:00 00 00 11 
+1:260  0:000     fakesmc-key-$Adr-ui32:00 00 03 00 
+1:260  0:000     fakesmc-key-$Num-ui8:01 
+1:261  0:000     fakesmc-key-RMde-char:41 
+1:262  0:000     fakesmc-key-RPlt-ch8*:6A 31 33 37 00 00 00 00 
+1:263  0:000     fakesmc-key-BEMB-flag:00 
+1:264  0:000     fakesmc-key-BATP-flag:00 
+1:264  0:000     fakesmc-key-BNum-ui8:00 
+1:265  0:000     fakesmc-key-MSTc-ui8:00 
+1:266  0:000     fakesmc-key-MSAc-ui16:00 00 
+1:267  0:000     fakesmc-key-MSWr-ui8:00 
+1:267  0:000     fakesmc-key-MSFW-ui8:01 00 
+1:268  0:000     fakesmc-key-MSPS-ui16:00 03 
+1:273  0:004     fakesmc-key-RBr -ch8*:6A 31 33 38 5F 39 00 00 
+1:274  0:000     fakesmc-key-EPCI-ui32:09 D0 F0 00 
+1:274  0:000     fakesmc-key-REV -ch8*:02 47 0F 00 00 03 
+1:276  0:002     fakesmc-key-BBIN-ui8:01 
+1:290  0:013  === [ ScanLoader ] ==============================
+1:290  0:000  - [01]: 'EFI'
+1:290  0:000        AddLoaderEntry for Volume Name=EFI, idx=0
+1:290  0:000        OSVersion= 
+1:290  0:000        IconName=unknown comma=-1 size=7
+1:290  0:000        Full=unknown
+1:290  0:000        Show badge as Drive.
+1:290  0:000        Loader entry created for 'PciRoot(0x0)\Pci(0x14,0x0)\USB(0x2,0x0)\HD(1,GPT,E8ED2D34-8F89-42E4-A498-AB0ED3A060DA,0x28,0x64000)\EFI\BOOT\BOOTX64.efi'
+1:290  0:000        Menu entry added at index 0
+1:290  0:000       hiding entry because DiskKind is DISK_KIND_EXTERNAL: \EFI\BOOT\BOOTX64.efi
+1:290  0:000  - [02]: 'Install macOS Monterey'
+1:291  0:000        AddLoaderEntry for Volume Name=Install macOS Monterey, idx=1
+1:293  0:002        OSVersion=12.2 
+1:293  0:000        IconName=monterey,mac comma=8 size=12
+1:293  0:000        first=os_monterey
+1:293  0:000        Show badge as Drive.
+1:293  0:000        Loader entry created for 'PciRoot(0x0)\Pci(0x14,0x0)\USB(0x2,0x0)\HD(2,GPT,FBB6D356-FDF6-4847-AE0A-5F6009E33441,0x64028,0x1C37FB0)\System\Library\CoreServices\boot.efi'
+1:294  0:001        Menu entry added at index 1
+1:295  0:000  - [04]: 'EFI'
+1:310  0:015  - [06]: 'Preboot'
+1:310  0:000      ApfsContainerUUID=9FF6D73C-6237-4BBD-82DF-C6E6FA43014E
+1:310  0:000      ApfsFileSystemUUID=04B57807-FBAA-4CEE-B633-A4C4EED90B9E
+1:310  0:000      APFSTargetUUID=EECBEC12-7A1D-4171-AB44-2B3EEDF3DA14
+1:316  0:005        AddLoaderEntry for Volume Name=Preboot, idx=2
+1:316  0:000        OSVersion=12.2 
+1:316  0:000        IconName=monterey,mac comma=8 size=12
+1:316  0:000        first=os_monterey
+1:317  0:000        Show badge as Drive.
+1:317  0:000        Loader entry created for 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F05D1450-4F84-49A5-B5A4-B829627C9589,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,0778B504AAFBEE4CB633A4C4EED90B9E)\EECBEC12-7A1D-4171-AB44-2B3EEDF3DA14\com.apple.installer\boot.efi'
+1:318  0:001        Menu entry added at index 2
+1:318  0:000  - [07]: 'ssd'
+1:318  0:000      ApfsContainerUUID=9FF6D73C-6237-4BBD-82DF-C6E6FA43014E
+1:318  0:000      ApfsFileSystemUUID=EECBEC12-7A1D-4171-AB44-2B3EEDF3DA14
+1:318  0:000        AddLoaderEntry for Volume Name=ssd, idx=3
+1:321  0:002        OSVersion=12.2 
+1:321  0:000        IconName=monterey,mac comma=8 size=12
+1:321  0:000        first=os_monterey
+1:321  0:000        Show badge as Drive.
+1:321  0:000        Loader entry created for 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F05D1450-4F84-49A5-B5A4-B829627C9589,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,12ECCBEE1D7A7141AB442B3EEDF3DA14)\macOS Install Data\Locked Files\Boot Files\boot.efi'
+1:322  0:001        Menu entry added at index 3
+1:322  0:000  - [08]: 'Recovery'
+1:322  0:000      ApfsContainerUUID=9FF6D73C-6237-4BBD-82DF-C6E6FA43014E
+1:322  0:000      ApfsFileSystemUUID=9826F053-9759-4DB9-8BE9-C022402E2CFB
+1:322  0:000      APFSTargetUUID=EECBEC12-7A1D-4171-AB44-2B3EEDF3DA14
+1:322  0:000  - [09]: 'VM'
+1:322  0:000      ApfsContainerUUID=9FF6D73C-6237-4BBD-82DF-C6E6FA43014E
+1:322  0:000      ApfsFileSystemUUID=A285FA7F-8CFD-4212-AA1F-21E16BE167C3
+1:322  0:000  Entries list before ordering
+1:322  0:000      Entry 0 : Boot UEFI external from EFI (hidden)
+1:322  0:000      Entry 1 : Boot macOS Install from Install macOS Monterey
+1:322  0:000      Entry 2 : Boot Mac OS Install for ssd via Preboot
+1:322  0:000      Entry 3 : Boot macOS Install from ssd
+1:322  0:000  Hiding entry 2 because of entry 3
+1:322  0:000  Entries after before ordering
+1:322  0:000    Entry 0 : Boot UEFI external from EFI (hidden)
+1:322  0:000    Entry 1 : Boot macOS Install from Install macOS Monterey
+1:322  0:000    Entry 2 : Boot Mac OS Install for ssd via Preboot (hidden)
+1:322  0:000    Entry 3 : Boot macOS Install from ssd
+1:322  0:000  Scanning legacy ...
+1:322  0:000  === [ AddCustomTool ] ===========================
+1:323  0:000  === [ GetEfiBootDeviceFromNvram ] ===============
+1:324  0:001  Got efi-boot-device-data size=220
+1:324  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F05D1450-4F84-49A5-B5A4-B829627C9589,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,12ECCBEE1D7A7141AB442B3EEDF3DA14)\macOS Install Data\Locked Files\Boot Files\boot.efi
+1:324  0:000    - Volume: 'PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F05D1450-4F84-49A5-B5A4-B829627C9589,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,12ECCBEE1D7A7141AB442B3EEDF3DA14)'
+1:324  0:000    - LoaderPath: '\macOS Install Data\Locked Files\Boot Files\boot.efi'
+1:324  0:000    - Guid = F05D1450-4F84-49A5-B5A4-B829627C9589
+1:324  0:000  === [ FindStartupDiskVolume ] ===================
+1:324  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x0,0xFFFF,0x0)\HD(2,GPT,F05D1450-4F84-49A5-B5A4-B829627C9589,0x64028,0xDF30B60)\VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,12ECCBEE1D7A7141AB442B3EEDF3DA14)
+1:324  0:000     - searching for that partition and loader '\macOS Install Data\Locked Files\Boot Files\boot.efi'
+1:324  0:000    checking 'PciRoot(0x0)/Pci(0x17,0x0)/Sata(0x0,0xFFFF,0x0)/HD(2,GPT,F05D1450-4F84-49A5-B5A4-B829627C9589,0x64028,0xDF30B60)/VenMedia(BE74FCF7-0B7C-49F3-9147-01F4042E6842,12ECCBEE1D7A7141AB442B3EEDF3DA14)'
+1:324  0:000     '\macOS Install Data\Locked Files\Boot Files\boot.efi'
+1:324  0:000      - found entry 1. 'Boot macOS Install from ssd', Volume 'ssd', '\macOS Install Data\Locked Files\Boot Files\boot.efi'
+1:324  0:000  Boot redirected to Entry 1. 'Boot macOS Install from ssd'
+1:324  0:000  BannerPlace at Clear Screen [770,172]
+1:483  0:159  AnimeRun=0
+1:567  0:083  GUI ready
+5:950  4:383  === [ GetUserSettings ] =========================
+5:950  0:000  GetDefaultModel()=iMac18,3
+5:952  0:002  Using config775.plist at path: \EFI\CLOVER
+5:953  0:000  There is a problem in plist '\EFI\CLOVER\config775.plist'
+5:954  0:000  Warning: Tag ':4' is already defined. Previous value ignored.
+5:954  0:000  Use CloverConfigPlistValidator or look in the log
+8:955  3:000  Cannot find smbios.plist at path '\EFI\CLOVER' : Not Found
+8:955  0:000  '\EFI\CLOVER\smbios.plist' not loaded. Efi error Not Found
+8:955  0:000  BiosVersion: IM101.88Z.F000.B00.1906141458
+8:955  0:000  BiosReleaseDate: 06/14/19
+8:955  0:000  EfiVersion: 215.0.0.0.0
+8:955  0:000  Calibrated TSC Frequency = 3600498180 = 3600MHz
+10:848  1:892  === [ GetUserSettings ] =========================
+10:848  0:000  GetDefaultModel()=iMac18,3
+10:850  0:002  Using config_i3630-0x5912.plist at path: \EFI\CLOVER
+10:851  0:000  There are problems in plist '\EFI\CLOVER\config_i3630-0x5912.plist'
+10:852  0:000  Warning: Tag ':4' is already defined. Previous value ignored.
+10:853  0:000  Warning: BiosVersion 'MBP151.88Z.F000.B00.2007121441' is before than default ('MBP151.88Z.F000.B00.2107050205') -> ignored. Dict '/SMBIOS:973'.
+10:854  0:001  Warning: BiosReleaseDate '07/12/2020' is older than default ('07/05/2021') -> ignored. Dict '/SMBIOS:973'.
+10:855  0:001  Warning: Unknown key '/Quirks/DisableRtcChecksum:1171'. Skipped.
+10:856  0:000  Warning: Unknown key '/Quirks/ProvideConsoleGopEnable:1214'. Skipped.
+10:857  0:000  Use CloverConfigPlistValidator or look in the log
+13:857  3:000  Cannot find smbios.plist at path '\EFI\CLOVER' : Not Found
+13:857  0:000  '\EFI\CLOVER\smbios.plist' not loaded. Efi error Not Found
+13:857  0:000  Using latest EfiVersion from config instead of default '715.0.57.0.0'
+13:857  0:000  BiosVersion: MBP151.88Z.F000.B00.2107050205
+13:857  0:000  BiosReleaseDate: 07/05/2021
+13:857  0:000  EfiVersion: 1539.0.0.0.1
+13:858  0:000  Calibrated TSC Frequency = 3600498180 = 3600MHz
+14:547  0:689  === [ GetUserSettings ] =========================
+14:547  0:000  GetDefaultModel()=iMac18,3
+14:550  0:002  Using configiMac19.2-f0x8.plist at path: \EFI\CLOVER
+14:550  0:000  There are problems in plist '\EFI\CLOVER\configiMac19.2-f0x8.plist'
+14:551  0:000  Warning: Tag ':4' is already defined. Previous value ignored.
+14:552  0:000  Warning: Expect a boolean, an int8 or a string starting with 'n' or '-' for '/Boot/XMPDetection:132'.
+14:553  0:001  Warning: Unknown key '/KernelAndKextPatches/KernelCpu:331'. Skipped.
+14:554  0:000  Warning: EfiVersion '220.260.170.0.0' is older than default ('1554.140.20.0.0') -> ignored. Dict '/SMBIOS:340'.
+14:555  0:001  Warning: Boolean value contained in a string. Please use <true/> instead of <string>yes</string> for tag '/SystemParameters/InjectKexts:392'
+14:567  0:012  Warning: Unknown key '/Quirks/PanicNoKextDump:401'. Skipped.
+14:579  0:011  Warning: Unknown key '/Quirks/LapicKernelPanic:403'. Skipped.
+14:590  0:011  Warning: Unknown key '/Quirks/DisableRtcChecksum:429'. Skipped.
+14:602  0:011  Warning: Unknown key '/Quirks/ProvideConsoleGopEnable:441'. Skipped.
+14:625  0:022  Warning: Unknown key '/Quirks/AppleXcpmCfgLock:443'. Skipped.
+14:636  0:011  Warning: Unknown key '/Quirks/CustomSMBIOSGuid:451'. Skipped.
+14:648  0:011  Warning: Unknown key '/Quirks/AppleCpuPmCfgLock:465'. Skipped.
+14:660  0:011  Use CloverConfigPlistValidator or look in the log
+17:671  3:011  Cannot find smbios.plist at path '\EFI\CLOVER' : Not Found
+17:671  0:000  '\EFI\CLOVER\smbios.plist' not loaded. Efi error Not Found
+17:671  0:000  Using latest BiosVersion from config instead of default 'IM191.88Z.F000.B00.2106222356'
+18:217  0:545  Using latest BiosReleaseDate from config instead of default '06/22/2021'
+18:254  0:037  BiosVersion: IM191.88Z.F000.B00.1904222222
+18:292  0:037  BiosReleaseDate: 04/22/2019
+18:324  0:032  EfiVersion: 1554.140.20.0.0
+18:358  0:034  Calibrated TSC Frequency = 3600498180 = 3600MHz
+19:994  1:635  === [ GetUserSettings ] =========================
+20:728  0:734  GetDefaultModel()=iMac18,3
+20:804  0:075  Using config.plist at path: \EFI\CLOVER
+20:840  0:036  There is a problem in plist '\EFI\CLOVER\config.plist'
+20:886  0:045  Warning: Tag ':4' is already defined. Previous value ignored.
+20:930  0:043  Use CloverConfigPlistValidator or look in the log
+24:013  3:082  Cannot find smbios.plist at path '\EFI\CLOVER' : Not Found
+24:497  0:484  '\EFI\CLOVER\smbios.plist' not loaded. Efi error Not Found

@@ -68,7 +68,7 @@ MacOS 11.3 Big Sur [ OpenCore 0.6.9 ]
     <tr>
       <td>Card Reader</td>
       <td>RTS5229 PCI Express</td>
-      <td>Testing</td>
+      <td>YES</td>
     </tr>
     <tr>
       <td>WebCam</td>

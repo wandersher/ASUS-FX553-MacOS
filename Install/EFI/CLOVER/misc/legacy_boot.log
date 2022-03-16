@@ -1,0 +1,279 @@
+0:100  0:100  MemLog inited, TSC freq: 2592051900
+0:100  0:000  CPU was calibrated with RTC
+0:100  0:000  CloverX64 : Image base = 0x2C160000
+0:100  0:000  Clover ImageHandle = 2bbfdb98
+0:116  0:016  === [ Starting Clover ] =========================
+0:116  0:000  Now is 11.11.2021,  13:56:14 (GMT)
+0:116  0:000  Starting Clover revision: 5140 (master, commit ec1f8a6a4) on American Megatrends EFI
+0:116  0:000  Build id: 20211008224907-ec1f8a6
+0:116  0:000  Build with: [Args: -D NO_GRUB_DRIVERS_EMBEDDED -D LESS_DEBUG -t GCC53 | --cmd-len=50000 -D NO_GRUB_DRIVERS_EMBEDDED -D LESS_DEBUG --conf=/Users/olarila.com/CloverBootloader/Conf -D USE_LOW_EBDA -a X64 -b RELEASE -t GCC53 -n 17 | OS: 12]
+0:116  0:000  SimpleTextEx Status=Success
+0:116  0:000  === [ Get Smbios ] ==============================
+0:116  0:000  Type 16 Index = 0
+0:116  0:000  Total Memory Slots Count = 2
+0:116  0:000  Type 17 Index = 0
+0:116  0:000  SmbiosTable.Type17->SlotIndex = 0
+0:116  0:000  SmbiosTable.Type17->ModuleSize = 8192MB
+0:116  0:000  SmbiosTable.Type17->Type = 0
+0:116  0:000  SmbiosTable.Type17->Frequency = 3200MHz
+0:116  0:000  SmbiosTable.Type17->Bank/Device = BANK 0 Controller0-ChannelA-DIMM0
+0:116  0:000  SmbiosTable.Type17->Vendor = SK Hynix
+0:116  0:000  SmbiosTable.Type17->SerialNo = 2259FF18
+0:116  0:000  SmbiosTable.Type17->PartNo = HMAA1GU6CJR6N-XN
+0:116  0:000  Type 17 Index = 1
+0:116  0:000  Ignoring insane frequency value 0MHz
+0:116  0:000  Boot status=0
+0:116  0:000  Running on: 'B560M H' with board 'B560M H'
+0:116  0:000  === [ GetCPUProperties ] ========================
+0:116  0:000  CPU Vendor = 756E6547 Model=A0671
+0:116  0:000   The CPU supported SSE4.1
+0:116  0:000  BrandString = 11th Gen Intel(R) Core(TM) i5-11400 @ 2.60GHz
+0:116  0:000   The CPU supported turbo
+0:116  0:000   Energy PerfBias is  not visible:
+0:116  0:000   TSC/CCC Information Leaf:
+0:116  0:000    numerator     : 216
+0:116  0:000    denominator   : 2
+0:116  0:000   Calibrated ARTFrequency: 24000480
+0:116  0:000   Rounded ARTFrequency: 24000000
+0:116  0:000  FSBFrequency = 100 MHz, DMI FSBFrequency = 100 MHz, Corrected FSBFrequency = 100 MHz
+0:116  0:000  MaxDiv/MinDiv: 25.0/6
+0:116  0:000  Turbo: 0/0/0/0
+0:116  0:000  Features: 0x77FAFBBFBFEBFBFF
+0:116  0:000  Threads: 16
+0:116  0:000  Cores: 1
+0:116  0:000  FSB: 100 MHz
+0:116  0:000  CPU: 2574 MHz
+0:116  0:000  TSC: 2574 MHz
+0:116  0:000  PIS: 100 MHz
+0:116  0:000  ExternalClock: 25 MHz
+0:116  0:000  === [ GetDevices ] ==============================
+0:116  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80013310)
+0:116  0:000  PCI (00|00:00.00) : 8086 4C53 class=060000
+0:116  0:000  PCI (00|00:02.00) : 8086 4C8B class=030000
+0:116  0:000   - GFX: Model=Intel Unsupported (Intel)
+0:116  0:000   - GOP: Provided by device
+0:116  0:000  PCI (00|00:14.00) : 8086 43ED class=0C0330
+0:116  0:000  PCI (00|00:14.02) : 8086 43EF class=050000
+0:116  0:000  PCI (00|00:16.00) : 8086 43E0 class=078000
+0:116  0:000  PCI (00|00:17.00) : 8086 43D2 class=010601
+0:116  0:000  PCI (00|00:1B.00) : 8086 43C4 class=060400
+0:117  0:000  PCI (00|00:1C.00) : 8086 43BC class=060400
+0:117  0:000  PCI (00|02:00.00) : 10EC 8168 class=020000
+0:117  0:000   - LAN: 1 Vendor=Realtek
+0:117  0:000  Legacy MAC address of LAN #0= 18:C0:4D:F9:5E:18:
+0:117  0:000  PCI (00|00:1D.00) : 8086 43B0 class=060400
+0:117  0:000  PCI (00|00:1F.00) : 8086 4387 class=060100
+0:117  0:000  PCI (00|00:1F.03) : 8086 43C8 class=040300
+0:117  0:000  PCI (00|00:1F.04) : 8086 43A3 class=0C0500
+0:117  0:000  PCI (00|00:1F.05) : 8086 43A4 class=0C8000
+0:119  0:002  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\B560M H--18-C0-4D-F9-5E-18'. Dir doesn't exist.
+0:119  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\B560M H\UEFI'. Dir doesn't exist.
+0:119  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\B560M H'. Dir doesn't exist.
+0:119  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\B560M H-2574'. Dir doesn't exist.
+0:119  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\B560M H'. Dir doesn't exist.
+0:119  0:000  _checkOEMPath Look for oem dir at path '\EFI\CLOVER\OEM\B560M H-2574'. Dir doesn't exist.
+0:119  0:000  === [ GetUserSettings ] =========================
+0:119  0:000  Using config.plist at path: \EFI\CLOVER
+0:120  0:000  Cannot find smbios.plist at path '\EFI\CLOVER' : Not Found
+0:120  0:000  '\EFI\CLOVER\smbios.plist' not loaded. Efi error Not Found
+0:120  0:000  Using latest BiosVersion from config
+0:120  0:000  BiosVersion: IMP11.88Z.F000.B00.2109052150
+0:120  0:000  Using latest BiosReleaseDate from config
+0:120  0:000  BiosReleaseDate: 09/05/2021
+0:120  0:000  Using latest EfiVersion from config: 1715.40.12.0.0
+0:120  0:000  Calibrated TSC Frequency = 2592051900 = 2592MHz
+0:120  0:000  GOP found at: PciRoot(0x0)/Pci(0x2,0x0)/AcpiAdr(0x80013310)
+0:120  0:000  === [ GetListOfThemes ] =========================
+0:123  0:002  - [00]: evilgen
+0:128  0:005  - [01]: random
+0:128  0:000  - [01]: embedded
+0:128  0:000  === [ Found config plists ] =====================
+0:128  0:000  - config_Notebook300.plist
+0:128  0:000  - config775.plist
+0:128  0:000  - config_Notebook100.200.plist
+0:128  0:000  - config_Series 300.400.plist
+0:128  0:000  - configOr.plist
+0:128  0:000  - config_Series 100.200.plist
+0:128  0:000  - config_i3630-0x5912.plist
+0:128  0:000  - config_8th_Gen_Mobile.plist
+0:128  0:000  - configiMac19.2-f0x8.plist
+0:128  0:000  - config_amd.plist
+0:128  0:000  - config_Series 500.plist
+0:128  0:000  - configX99.plist
+0:128  0:000  - configx299.plist
+0:128  0:000  - configX79.plist
+0:128  0:000  - config.plist
+0:128  0:000  - config_10th_Gen_Mobile.plist
+0:128  0:000  - configX58.plist
+0:128  0:000  - config_Notebook.plist
+0:128  0:000  - configMBP142.plist
+0:128  0:000  - configHP.plist
+0:128  0:000  === [ LoadDrivers ] =============================
+0:128  0:000  Loading HFSPlus.efi status=Success
+0:135  0:007   - driver needs connecting
+0:135  0:000  Loading ApfsDriverLoader.efi status=Success
+0:136  0:000   - driver needs connecting
+0:136  0:000  2 drivers needs connecting ...
+0:136  0:000  PlatformDriverOverrideProtocol->GetDriver overriden
+0:136  0:000  HFS+ driver loaded
+0:136  0:000  APFS driver loaded
+0:136  0:000  Searching for invalid DiskIo BY_DRIVER connects: not found, all ok
+0:533  0:397  === [ InitScreen ] ==============================
+0:533  0:000  Console modes reported: 4, available modes:
+0:533  0:000   - [01]: 80x25
+0:533  0:000   - [03]: 100x31
+0:533  0:000   - [04]: 127x33 (current mode)
+0:533  0:000  SetMaxResolution: found best mode 0: 1366x768
+0:582  0:049  Video mode change to mode #0: Success
+0:582  0:000   - set
+0:582  0:000  SetScreenResolution: 1366x768 - already set
+0:583  0:000  Using embedded font
+0:586  0:002  === [ ScanSPD ] =================================
+0:586  0:000  Scanning SMBus [8086:43A3], mmio: 0x5121A004, ioport: 0xEFA0, hostc: 0x11
+0:611  0:025  Not using XMP because it is not present
+0:611  0:000  Slot: 0 Type 26 8192MB 3200MHz Vendor=SK Hynix PartNo=HMAA1GU6CJR6N-XN SerialNo=2259FF18
+0:613  0:001  === [ GetAcpiTablesList ] =======================
+0:613  0:000  Get Acpi Tables List from RSDT:
+0:613  0:000   - [00]: FACP  A M I  len=276
+0:613  0:000   - [01]: MCFG  A M I  len=60
+0:613  0:000   - [02]: FIDT  A M I  len=156
+0:613  0:000   - [03]: SSDT  GSWApp len=38323
+0:613  0:000   - [04]: SSDT  CpuSsdt len=9732
+0:613  0:000   - [05]: SSDT  SaSsdt  len=17436
+0:613  0:000   - [06]: SSDT  IgfxSsdt len=13005
+0:613  0:000   - [07]: HPET  A M I  len=56
+0:613  0:000   - [08]: APIC  A M I  len=356
+0:613  0:000   - [09]: SSDT  A M I  len=26030
+0:613  0:000   - [10]: SSDT  A M I  len=3686
+0:613  0:000   - [11]: SSDT  xh_rksu4 len=3161
+0:613  0:000   - [12]: NHLT  A M I  len=6129
+0:613  0:000   - [13]: SSDT  DTbtSsdt len=8806
+0:613  0:000   - [14]: LPIT  A M I  len=204
+0:613  0:000   - [15]: SSDT  A M I  len=10016
+0:613  0:000   - [16]: SSDT  A M I  len=2898
+0:613  0:000   - [17]: DBGP  A M I  len=52
+0:613  0:000   - [18]: DBG2  A M I  len=84
+0:613  0:000   - [19]: SSDT  A M I  len=5559
+0:613  0:000   - [20]: SSDT  ADebTabl len=324
+0:613  0:000   - [21]: BGRT  A M I  len=56
+0:613  0:000   - [22]: PTDT  A M I  len=3312
+0:613  0:000   - [23]: WSMT  A M I  len=40
+0:613  0:000   - [24]: FPDT  A M I  len=68
+0:615  0:002  Custom boot CUSTOM_BOOT_USER_DISABLED (0x0)
+0:615  0:000  Default theme: evilgen
+0:617  0:002  === [ Found DSDT tables ] =======================
+0:617  0:000  === [ InitKextList ] ============================
+0:709  0:091  === [ ScanVolumes ] =============================
+0:709  0:000  Found 7 volumes with blockIO
+0:709  0:000  - [00]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x8,0x0)
+0:710  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:710  0:000  - [01]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x8,0x0)\HD(1,MBR,0x80EA1E0F,0x800,0x39AD800)
+0:711  0:001          Result of bootcode detection: bootable Windows (vista,win)
+0:716  0:005            label : ESD-USB
+0:716  0:000  - [02]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0xA,0x0)\USB(0x1,0x0)
+0:717  0:000  - [03]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0xA,0x0)\USB(0x1,0x0)\HD(1,GPT,BBD5F213-14C5-4184-995C-ADF05D276FFA,0x28,0x64000)
+0:717  0:000          Result of bootcode detection: bootable unknown (legacy)
+0:717  0:000            label : EFI
+0:717  0:000          This is SelfVolume !!
+0:717  0:000  - [04]: Volume: PciRoot(0x0)\Pci(0x14,0x0)\USB(0xA,0x0)\USB(0x1,0x0)\HD(2,GPT,996DB8F1-619B-4742-9738-A35DAC416577,0x64028,0x1C37FB0)
+0:718  0:000            label : Install macOS Monterey
+0:718  0:000  - [05]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x5,0xFFFF,0x0)
+0:770  0:052  Detected name KRTMSVOL_RU_DVD
+0:770  0:000          Found Windows DVD
+0:770  0:000          Result of bootcode detection: bootable unknown (win)
+0:770  0:000  - [06]: Volume: PciRoot(0x0)\Pci(0x17,0x0)\Sata(0x5,0xFFFF,0x0)\CDROM(0x0)
+0:827  0:057  No AudioIoProtocols, status=Not Found
+0:828  0:000  === [ InitXTheme ] ==============================
+0:828  0:000  use Daylight theme
+0:830  0:002  Using theme 'evilgen' (evilgen)
+0:830  0:000  chosen theme evilgen
+0:830  0:000  OS main and drive as badge
+0:975  0:145  sound play end with status=Device Error
+0:977  0:001  theme inited
+0:977  0:000  Chosen theme evilgen
+0:977  0:000  after NVRAM boot-args=dart=0 watchdog=0 alcid=1 -no_compat_check -revsbvmm -v
+0:977  0:000  === [ Dump SMC keys from NVRAM ] ================
+0:977  0:000  no AppleSMC protocol
+0:991  0:013  === [ ScanLoader ] ==============================
+0:991  0:000  - [01]: 'ESD-USB'
+0:996  0:005        AddLoaderEntry for Volume Name=ESD-USB, idx=0
+0:996  0:000        OSVersion= 
+0:996  0:000        IconName=vista,win comma=5 size=9
+0:996  0:000        first=os_vista
+0:997  0:000        Show badge as Drive.
+0:997  0:000        Loader entry created for 'PciRoot(0x0)\Pci(0x14,0x0)\USB(0x8,0x0)\HD(1,MBR,0x80EA1E0F,0x800,0x39AD800)\EFI\MICROSOFT\BOOT\cdboot.efi'
+0:997  0:000        Menu entry added at index 0
+0:997  0:000        AddLoaderEntry for Volume Name=ESD-USB, idx=1
+0:997  0:000        OSVersion= 
+0:997  0:000        IconName=unknown comma=-1 size=7
+0:997  0:000        Full=unknown
+0:997  0:000        Show badge as Drive.
+0:997  0:000        Loader entry created for 'PciRoot(0x0)\Pci(0x14,0x0)\USB(0x8,0x0)\HD(1,MBR,0x80EA1E0F,0x800,0x39AD800)\EFI\BOOT\BOOTX64.efi'
+0:997  0:000        Menu entry added at index 1
+0:997  0:000       hiding entry because DiskKind is DISK_KIND_EXTERNAL: \EFI\BOOT\BOOTX64.efi
+0:997  0:000  - [03]: 'EFI'
+0:998  0:000        AddLoaderEntry for Volume Name=EFI, idx=2
+0:998  0:000        OSVersion= 
+0:998  0:000        IconName=unknown comma=-1 size=7
+0:998  0:000        Full=unknown
+0:998  0:000        Show badge as Drive.
+0:998  0:000        Loader entry created for 'PciRoot(0x0)\Pci(0x14,0x0)\USB(0xA,0x0)\USB(0x1,0x0)\HD(1,GPT,BBD5F213-14C5-4184-995C-ADF05D276FFA,0x28,0x64000)\EFI\BOOT\BOOTX64.efi'
+0:998  0:000        Menu entry added at index 2
+0:998  0:000       hiding entry because DiskKind is DISK_KIND_EXTERNAL: \EFI\BOOT\BOOTX64.efi
+0:998  0:000  - [04]: 'Install macOS Monterey'
+0:999  0:000        AddLoaderEntry for Volume Name=Install macOS Monterey, idx=3
+1:001  0:002        OSVersion=12.0.1 
+1:001  0:000        IconName=monterey,mac comma=8 size=12
+1:001  0:000        first=os_monterey
+1:001  0:000        Show badge as Drive.
+1:001  0:000        Loader entry created for 'PciRoot(0x0)\Pci(0x14,0x0)\USB(0xA,0x0)\USB(0x1,0x0)\HD(2,GPT,996DB8F1-619B-4742-9738-A35DAC416577,0x64028,0x1C37FB0)\System\Library\CoreServices\boot.efi'
+1:002  0:000        Menu entry added at index 3
+1:003  0:000  Entries list before ordering
+1:003  0:000      Entry 0 : Boot Microsoft EFI cdboot from ESD-USB
+1:003  0:000      Entry 1 : Boot UEFI external from ESD-USB (hidden)
+1:003  0:000      Entry 2 : Boot UEFI external from EFI (hidden)
+1:003  0:000      Entry 3 : Boot macOS Install from Install macOS Monterey
+1:003  0:000  Entries after before ordering
+1:003  0:000    Entry 0 : Boot Microsoft EFI cdboot from ESD-USB
+1:003  0:000    Entry 1 : Boot UEFI external from ESD-USB (hidden)
+1:003  0:000    Entry 2 : Boot UEFI external from EFI (hidden)
+1:003  0:000    Entry 3 : Boot macOS Install from Install macOS Monterey
+1:003  0:000  Scanning legacy ...
+1:003  0:000      AddLegacyEntry:
+1:003  0:000        FullTitle=
+1:003  0:000        LoaderTitle=
+1:003  0:000        Volume->LegacyOS->Name=Windows
+1:003  0:000        Entry->Title=Boot Windows from ESD-USB
+1:003  0:000        IconName=vista,win comma=5 size=9
+1:003  0:000        first=os_vista
+1:004  0:000      AddLegacyEntry:
+1:004  0:000        FullTitle=
+1:004  0:000        LoaderTitle=
+1:004  0:000        Volume->LegacyOS->Name=
+1:004  0:000        Entry->Title=Boot  from KRTMSVOL_RU_DVD
+1:004  0:000        IconName=win comma=-1 size=3
+1:004  0:000        Full=win
+1:004  0:000  === [ AddCustomTool ] ===========================
+1:004  0:000  === [ GetEfiBootDeviceFromNvram ] ===============
+1:005  0:000  Got efi-boot-device-data size=136
+1:005  0:000   - efi-boot-device-data: PciRoot(0x0)\Pci(0x14,0x0)\USB(0x8,0x0)\HD(1,MBR,0x80EA1E0F,0x800,0x39AD800)\EFI\MICROSOFT\BOOT\cdboot.efi
+1:005  0:000    - Volume: 'PciRoot(0x0)\Pci(0x14,0x0)\USB(0x8,0x0)\HD(1,MBR,0x80EA1E0F,0x800,0x39AD800)'
+1:005  0:000    - LoaderPath: '\EFI\MICROSOFT\BOOT\cdboot.efi'
+1:005  0:000  === [ FindStartupDiskVolume ] ===================
+1:005  0:000    - Volume: partition = PciRoot(0x0)\Pci(0x14,0x0)\USB(0x8,0x0)\HD(1,MBR,0x80EA1E0F,0x800,0x39AD800)
+1:005  0:000     - searching for that partition and loader '\EFI\MICROSOFT\BOOT\cdboot.efi'
+1:005  0:000    checking 'PciRoot(0x0)/Pci(0x14,0x0)/USB(0x8,0x0)/HD(1,MBR,0x80EA1E0F,0x800,0x39AD800)'
+1:005  0:000     '\EFI\MICROSOFT\BOOT\cdboot.efi'
+1:005  0:000      - found entry 0. 'Boot Microsoft EFI cdboot from ESD-USB', Volume 'ESD-USB', '\EFI\MICROSOFT\BOOT\cdboot.efi'
+1:005  0:000  Boot redirected to Entry 0. 'Boot Microsoft EFI cdboot from ESD-USB'
+1:005  0:000  BannerPlace at Clear Screen [493,16]
+1:088  0:083  AnimeRun=0
+1:155  0:066  GUI ready
+7:503  6:347  BootVariable of the entry is empty
+7:503  0:000  SetStartupDiskVolume:
+7:503  0:000    * Volume: 'KRTMSVOL_RU_DVD'
+7:503  0:000    * LoaderPath: ''
+7:503  0:000    * DevPath: KRTMSVOL_RU_DVD
+7:503  0:000    * GUID = <null guid>
+7:503  0:000  SetNvramVariable (efi-boot-device-data, guid, 0x7, 32): exists(0x7, 136), not equal -> writing new (Success)
+7:545  0:042  CDROMBoot: Booting LBA 831 @7C00 L2000
