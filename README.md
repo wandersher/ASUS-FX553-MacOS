@@ -9,7 +9,7 @@
 2) Copy EFI folder from 0.7.9 in this repository to your EFI volume
 3) Reboot & Enjoy
 4) Stand with Ukraine 🇺🇦
-5) Also you can send me thanks donate <a href="https://send.monobank.ua/jar/9shAsR9fTA" target="__blank">here</a>
+5) Also you can send me thanks donate by <a href="https://send.monobank.ua/jar/9h3RJ21WRh" target="_blank">USD $</a> or <a href="https://send.monobank.ua/jar/9shAsR9fTA" target="_blank">UAH ₴</a>
 
 
 ## OS
