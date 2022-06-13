@@ -15,8 +15,8 @@
 
 ## OS
 
-MacOS 11.3 Big Sur [ OpenCore 0.7.9 ]
-MacOS 12.4 Monterey [ OpenCore 0.7.9 ]
+MacOS 11.3 Big Sur [ OpenCore 0.7.9 ]<br/>
+MacOS 12.4 Monterey [ OpenCore 0.7.9 ]<br/>
 
 ## Hardware
 
