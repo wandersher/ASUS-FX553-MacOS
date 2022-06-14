@@ -1,4 +1,5 @@
 .DS_Store
 Icon?
-Tools
-Commands
+/Tools
+/Commands
+/0.7.9

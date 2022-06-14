@@ -803,7 +803,7 @@
 			<key>AdviseFeatures</key>
 			<false/>
 			<key>MLB</key>
-			<string>C02732404GUJ1JH1F</string>
+			<string>C02728306CDHRPCJA</string>
 			<key>MaxBIOSVersion</key>
 			<false/>
 			<key>ProcessorType</key>
@@ -817,9 +817,9 @@
 			<key>SystemProductName</key>
 			<string>MacBookPro14,3</string>
 			<key>SystemSerialNumber</key>
-			<string>C02V60E8HTD5</string>
+			<string>C02V25ZQHV2N</string>
 			<key>SystemUUID</key>
-			<string>50F1867D-F26D-4014-844D-154652F8418A</string>
+			<string>DF2EEF56-3A50-4872-A579-9796B45D7E67</string>
 		</dict>
 		<key>UpdateDataHub</key>
 		<true/>

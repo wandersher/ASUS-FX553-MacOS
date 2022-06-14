@@ -1,4 +1,3 @@
-
 # MacOS for Asus FX553
 ![MacOS for Asus FX553](preview.png)
 
@@ -6,8 +5,8 @@
 
 1) Install MacOS on your laptop
     * How to install MacOS you can find on this YouTube chanels <a href="https://www.youtube.com/channel/UC9PhjnFqCTQFgTVcgzERdbw" target="__blank">Eng</a> or <a href="https://www.youtube.com/channel/UC-exD3luVmfx_Mlb8Y6qVjw" target="__blank">Rus</a>
-2) Copy EFI folder from 0.7.9 in this repository to your EFI volume
-3) Reboot & Enjoy
+2) Copy EFI folder from release zip to your EFI volume
+3) Reboot, reset NVRam & Enjoy
 4) Stand with Ukraine 🇺🇦
 5) Also you can send me thanks donate <a href="https://send.monobank.ua/jar/9shAsR9fTA" target="_blank">here</a>
 <!-- 5) Also you can send me thanks donate by <a href="https://send.monobank.ua/jar/9h3RJ21WRh" target="_blank">USD $</a> or <a href="https://send.monobank.ua/jar/9shAsR9fTA" target="_blank">UAH ₴</a> -->
