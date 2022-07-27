@@ -15,7 +15,7 @@
 ## OS
 
 MacOS 11.6.7 Big Sur [ OpenCore 0.7.9 ]<br/>
-MacOS 12.4 Monterey [ OpenCore 0.8.2 ]<br/>
+MacOS 12.5 Monterey [ OpenCore 0.8.2 ]<br/>
 
 ## Hardware
 
@@ -71,7 +71,7 @@ MacOS 12.4 Monterey [ OpenCore 0.8.2 ]<br/>
     <tr>
       <td>Card Reader</td>
       <td>RTS5229 PCI Express</td>
-      <td>YES</td>
+      <td>NO</td>
     </tr>
     <tr>
       <td>WebCam</td>
