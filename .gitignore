@@ -3,3 +3,10 @@ Icon?
 /Tools
 /Commands
 /Installation
+install 0.7.9 OSX Big Sur
+install 0.8.0 OSX Monterey
+install 0.8.2 OSX Monterey
+install 0.8.3 OSX Monterey
+
+smbios.txt
+version
